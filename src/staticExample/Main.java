@@ -4,9 +4,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-//        Human population is common for all human it doesnt change for each human
+//        Human population is common for all human it doesn't change for each human
 //        does not depend on object
-//        proprties that are not relted to objects  are called static methods or variable
+//        properties that are not relted to objects  are called static methods or variable
 
         human rishon = new human(22,"Rishon",10000,false);
         human xyz = new human(22,"xyz",10000,true);
@@ -25,10 +25,10 @@ public class Main {
 
     // this is not dependent on objects
     static void func() {
-       // gretting(); you cant use this because it requires an instance
+       // greeting(); you cant use this because it requires an instance
         //but the function you are using it in does not depend on instance
 
-        // you cannot access non static stuff without referencing thier instance in
+        // you cannot access non-static stuff without referencing their instance in
         // a static context
 
         Main obj = new Main();

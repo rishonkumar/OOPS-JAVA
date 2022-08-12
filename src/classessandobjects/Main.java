@@ -13,6 +13,14 @@ public class Main {
         s1.greeting();
 
         s2.greeting();
+
+        Student1 one = new Student1();
+        Student1 two = one;
+
+        one.name = "Something something";// Something something
+        System.out.println(two.name); //
+
+
     }
 }
 
@@ -49,5 +57,10 @@ class Student1 {
         this.marks = marks;
     }
 
+//    Student1() {
+//        //this is how you call a constructor from another constructor
+          // internally : new Student()
+//        this(13,"swsw",66.7f);
+//    }
 
 }
